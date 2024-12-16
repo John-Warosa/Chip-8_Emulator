@@ -8,9 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/chip8.c" "CMakeFiles/Emulator.dir/src/chip8.c.o" "gcc" "CMakeFiles/Emulator.dir/src/chip8.c.o.d"
   "/Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/main.c" "CMakeFiles/Emulator.dir/src/main.c.o" "gcc" "CMakeFiles/Emulator.dir/src/main.c.o.d"
-  "/Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/ram.c" "CMakeFiles/Emulator.dir/src/ram.c.o" "gcc" "CMakeFiles/Emulator.dir/src/ram.c.o.d"
-  "/Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/stack.c" "CMakeFiles/Emulator.dir/src/stack.c.o" "gcc" "CMakeFiles/Emulator.dir/src/stack.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

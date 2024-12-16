@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Emulator.dir/src/chip8.c.o"
+  "CMakeFiles/Emulator.dir/src/chip8.c.o.d"
   "CMakeFiles/Emulator.dir/src/main.c.o"
   "CMakeFiles/Emulator.dir/src/main.c.o.d"
-  "CMakeFiles/Emulator.dir/src/ram.c.o"
-  "CMakeFiles/Emulator.dir/src/ram.c.o.d"
-  "CMakeFiles/Emulator.dir/src/stack.c.o"
-  "CMakeFiles/Emulator.dir/src/stack.c.o.d"
   "Emulator"
   "Emulator.pdb"
 )

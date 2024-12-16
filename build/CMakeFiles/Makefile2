@@ -85,12 +85,12 @@ clean: CMakeFiles/Emulator.dir/clean
 CMakeFiles/Emulator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/build/CMakeFiles --progress-num=1,2,3,4 "Built target Emulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/build/CMakeFiles --progress-num=1,2,3 "Built target Emulator"
 .PHONY : CMakeFiles/Emulator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Emulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Emulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/build/CMakeFiles 0
 .PHONY : CMakeFiles/Emulator.dir/rule

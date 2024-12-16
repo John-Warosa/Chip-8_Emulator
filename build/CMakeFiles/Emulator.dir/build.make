@@ -86,50 +86,34 @@ CMakeFiles/Emulator.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Emulator.dir/src/main.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/main.c -o CMakeFiles/Emulator.dir/src/main.c.s
 
-CMakeFiles/Emulator.dir/src/ram.c.o: CMakeFiles/Emulator.dir/flags.make
-CMakeFiles/Emulator.dir/src/ram.c.o: /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/ram.c
-CMakeFiles/Emulator.dir/src/ram.c.o: CMakeFiles/Emulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Emulator.dir/src/ram.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Emulator.dir/src/ram.c.o -MF CMakeFiles/Emulator.dir/src/ram.c.o.d -o CMakeFiles/Emulator.dir/src/ram.c.o -c /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/ram.c
+CMakeFiles/Emulator.dir/src/chip8.c.o: CMakeFiles/Emulator.dir/flags.make
+CMakeFiles/Emulator.dir/src/chip8.c.o: /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/chip8.c
+CMakeFiles/Emulator.dir/src/chip8.c.o: CMakeFiles/Emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Emulator.dir/src/chip8.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Emulator.dir/src/chip8.c.o -MF CMakeFiles/Emulator.dir/src/chip8.c.o.d -o CMakeFiles/Emulator.dir/src/chip8.c.o -c /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/chip8.c
 
-CMakeFiles/Emulator.dir/src/ram.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Emulator.dir/src/ram.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/ram.c > CMakeFiles/Emulator.dir/src/ram.c.i
+CMakeFiles/Emulator.dir/src/chip8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Emulator.dir/src/chip8.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/chip8.c > CMakeFiles/Emulator.dir/src/chip8.c.i
 
-CMakeFiles/Emulator.dir/src/ram.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Emulator.dir/src/ram.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/ram.c -o CMakeFiles/Emulator.dir/src/ram.c.s
-
-CMakeFiles/Emulator.dir/src/stack.c.o: CMakeFiles/Emulator.dir/flags.make
-CMakeFiles/Emulator.dir/src/stack.c.o: /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/stack.c
-CMakeFiles/Emulator.dir/src/stack.c.o: CMakeFiles/Emulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Emulator.dir/src/stack.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Emulator.dir/src/stack.c.o -MF CMakeFiles/Emulator.dir/src/stack.c.o.d -o CMakeFiles/Emulator.dir/src/stack.c.o -c /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/stack.c
-
-CMakeFiles/Emulator.dir/src/stack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Emulator.dir/src/stack.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/stack.c > CMakeFiles/Emulator.dir/src/stack.c.i
-
-CMakeFiles/Emulator.dir/src/stack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Emulator.dir/src/stack.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/stack.c -o CMakeFiles/Emulator.dir/src/stack.c.s
+CMakeFiles/Emulator.dir/src/chip8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Emulator.dir/src/chip8.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/src/chip8.c -o CMakeFiles/Emulator.dir/src/chip8.c.s
 
 # Object files for target Emulator
 Emulator_OBJECTS = \
 "CMakeFiles/Emulator.dir/src/main.c.o" \
-"CMakeFiles/Emulator.dir/src/ram.c.o" \
-"CMakeFiles/Emulator.dir/src/stack.c.o"
+"CMakeFiles/Emulator.dir/src/chip8.c.o"
 
 # External object files for target Emulator
 Emulator_EXTERNAL_OBJECTS =
 
 Emulator: CMakeFiles/Emulator.dir/src/main.c.o
-Emulator: CMakeFiles/Emulator.dir/src/ram.c.o
-Emulator: CMakeFiles/Emulator.dir/src/stack.c.o
+Emulator: CMakeFiles/Emulator.dir/src/chip8.c.o
 Emulator: CMakeFiles/Emulator.dir/build.make
 Emulator: /opt/homebrew/Cellar/raylib/5.5/lib/libraylib.dylib
 Emulator: CMakeFiles/Emulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Emulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eliasmathiaschitz/Desktop/C/Projekte/Chip-8_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Emulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Emulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

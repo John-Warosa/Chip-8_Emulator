@@ -135,6 +135,30 @@ Emulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/build
 .PHONY : Emulator/fast
 
+src/chip8.o: src/chip8.c.o
+.PHONY : src/chip8.o
+
+# target to build an object file
+src/chip8.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/src/chip8.c.o
+.PHONY : src/chip8.c.o
+
+src/chip8.i: src/chip8.c.i
+.PHONY : src/chip8.i
+
+# target to preprocess a source file
+src/chip8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/src/chip8.c.i
+.PHONY : src/chip8.c.i
+
+src/chip8.s: src/chip8.c.s
+.PHONY : src/chip8.s
+
+# target to generate assembly for a file
+src/chip8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/src/chip8.c.s
+.PHONY : src/chip8.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -159,54 +183,6 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/ram.o: src/ram.c.o
-.PHONY : src/ram.o
-
-# target to build an object file
-src/ram.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/src/ram.c.o
-.PHONY : src/ram.c.o
-
-src/ram.i: src/ram.c.i
-.PHONY : src/ram.i
-
-# target to preprocess a source file
-src/ram.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/src/ram.c.i
-.PHONY : src/ram.c.i
-
-src/ram.s: src/ram.c.s
-.PHONY : src/ram.s
-
-# target to generate assembly for a file
-src/ram.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/src/ram.c.s
-.PHONY : src/ram.c.s
-
-src/stack.o: src/stack.c.o
-.PHONY : src/stack.o
-
-# target to build an object file
-src/stack.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/src/stack.c.o
-.PHONY : src/stack.c.o
-
-src/stack.i: src/stack.c.i
-.PHONY : src/stack.i
-
-# target to preprocess a source file
-src/stack.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/src/stack.c.i
-.PHONY : src/stack.c.i
-
-src/stack.s: src/stack.c.s
-.PHONY : src/stack.s
-
-# target to generate assembly for a file
-src/stack.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Emulator.dir/build.make CMakeFiles/Emulator.dir/src/stack.c.s
-.PHONY : src/stack.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,15 +192,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Emulator"
+	@echo "... src/chip8.o"
+	@echo "... src/chip8.i"
+	@echo "... src/chip8.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/ram.o"
-	@echo "... src/ram.i"
-	@echo "... src/ram.s"
-	@echo "... src/stack.o"
-	@echo "... src/stack.i"
-	@echo "... src/stack.s"
 .PHONY : help
 
 
